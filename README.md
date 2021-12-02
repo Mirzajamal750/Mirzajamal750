@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @Mirzajamal750
 - 👀 I’m interested in Machine and Deep learning
-- 🌱 I’m currently learning Artifical Intelligence
+- 🌱 I’m currently learning about Artifical Intelligence
 - 💞️ I’m looking to collaborate on 
 - 📫 How to reach me ...
 
