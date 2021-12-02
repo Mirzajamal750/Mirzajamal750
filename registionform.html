@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Register into identifymee.co
+    </title>
+
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css\styles.css">
+    <script src="css\js.js"></script>
+</head>
+
+<body>
+    <div class="loginbox">
+
+        <img src="css\login.jpg" class="avatar">
+        <h1>
+            <center><u> Register Here</u></center>
+        </h1>
+        <form>
+
+            <input type="text" name="" placeholder="First Name"><br><br>
+
+            <input type="text" name="" placeholder="Last Name ">
+            <br><br>
+
+
+            <div style="position:center;margin-left: 35px;margin-top: 10px;">
+                <label for="country">
+                Select Your Country
+            </label>
+                <select name="Asia" id="Asia">
+                <option value="Pak">Pakistan</option>
+                <option value="Ind">India</option>
+                <option value="Bang">Bangladash</option>
+                <option value="Afgha">Afghanistan</option>
+                <option value="Nep">Nepal</option>
+                <option value="Sir">Sirlanka</option>
+                <option value="Uae">UAE</option>
+                <option value="Arb">Saudi Arabic</option>
+              </select></div>
+            <br><br>
+
+            <input type="number" name="" min="0" placeholder="Cellphone Number">
+
+            <br><br>
+            <input type="button" name="" value="Generate OTP">
+            <br><br>
+            <div class="container">
+                ENTER OTP
+                <div class="userInput">
+                    <input type="p1" id='ist' maxlength="1" onkeyup="clickEvent(this,'sec')">
+                    <input type="p2" id="sec" maxlength="1" onkeyup="clickEvent(this,'third')">
+                    <input type="p3" id="third" maxlength="1" onkeyup="clickEvent(this,'fourth')">
+                    <input type="p4" id="fourth" maxlength="1" onkeyup="clickEvent(this,'fifth')">
+                    <input type="p5" id="fifth" maxlength="1">
+                </div>
+
+                <input type="text" name="" placeholder="Email">
+                <br>
+                <input type="password" name="" placeholder="Password">
+                <br>
+                <input type="password" name="" placeholder="Confirm your Password">
+
+                <br><br>
+
+                <input type="button" name="" value="Submit" onclick="location.href='login/loginform">
+
+                <center>
+
+                    <a href="a">
+                Already Have Account 
+            </a>
+                </center>
+        </form>
+
+        </div>
+
+
+</body>
+
+</html>
